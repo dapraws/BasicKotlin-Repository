@@ -73,13 +73,5 @@ fun main() {
         output : value is in the range
     */
 
-    /*-----------------------------------------------------------------------*/
-    val registerNumber = when(val regis = getRegisterNumber()){
-        in 1..50 -> 50 * regis
-        in 51..100 -> 100 * regis
-        else -> regis
-    }
 
 }
-
-fun getRegisterNumber() = Random.nextInt(100)
