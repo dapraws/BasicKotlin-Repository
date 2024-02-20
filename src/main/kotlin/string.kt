@@ -1,7 +1,7 @@
 package com.dicoding.kotlin
 
 fun main() {
-    val text  = "Dicoding"
+    val text  = "Dicoding.com"
     val firstChar = text[3]
     print("The 4th character of the $text is $firstChar")
 
@@ -29,7 +29,7 @@ fun main() {
 }
 
 /*
-  output : The 4th character of the Dicoding is o
+  output : The 4th character of the Dicoding.com is o
   output : D i c o d i n g
   output : Kotlin is "Awesome!"
   output: Unicode test : ©
