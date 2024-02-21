@@ -1,20 +1,6 @@
 package com.dicoding.kotlin
 
-fun main() {
-//    val list = getListUser()
+//val points = mapOf<String, Int>( "alfian" to 10 , "dimas" to 20 )
 
-//    fun getUsername(): List<String>{
-//        val name = mutableListOf<String>()
-//        for (user in list){
-//            name.add(user.name)
-//        }
-//        return name
-//    }
-
-    // Karena kode pada Kotlin bisa dituliskan dengan gaya fungsional, maka kode di atas cukup dituliskan seperti berikut:
-//    fun getUsername(): List<String>{
-//        return list.map {
-//            it.name
-//        }
-//    }
-}
+//bisa disingkat menjadi seperti ini
+val points = mapOf("alfian" to 10, "dimas" to 20)
